@@ -1,0 +1,30 @@
+//Confirmation dialog box
+<html>
+<head>
+<script>
+function demo()
+{
+ var retval=confirm("Do You Want to Continue");
+ if(retval==true)
+ {
+
+ document.write("User Want to continue");
+ return true;
+ }
+ else
+ {
+
+ document.write("User do not continue");
+ return false;
+ }
+
+}
+</script>
+</head>
+<body>
+<p> Click the button </p>
+<form>
+<input type="button"  value="Click Me" onclick="demo();"/>
+</form>
+</body>
+</html>
