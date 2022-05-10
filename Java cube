@@ -1,0 +1,12 @@
+<html>
+<body>
+<script type="text/javascript">
+
+var n=2;
+var cube;
+cube=n*n*n;
+document.write("Cube is =")
+document.write(cube);
+</script>
+</body>
+</html>
